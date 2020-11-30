@@ -5,7 +5,7 @@
 #include <future>
 #include "Txt.h"
 #define TIMEP(start, end) (std::chrono::duration_cast<std::chrono::milliseconds>((end) - (begin)).count())
-
+#define ASYNC
 
 int main(int argc, char* argv[])
 {
