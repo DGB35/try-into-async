@@ -35,8 +35,6 @@ int main(int argc, char* argv[])
 #endif
 	std::cout << a.size() << std::endl;
 	std::cout << b.size() << std::endl;
-	std::this_thread::sleep_for(std::chrono::milliseconds(1000));
-
 	auto end = std::chrono::high_resolution_clock::now();
 	std::cout << "End:" << std::setw(9) << TIMEP(begin, end) << " milliseconds" << std::endl;
 	
